@@ -16,8 +16,3 @@ void readmenu(MENU t);	//메뉴를 조회하는 함수
 int updatemenu(MENU *t);	//메뉴를 수정하는 함수
 int select_data_no(MENU *t, int count);	//메뉴 리스트에서 특정 메뉴를 선택하는 함수
 int deletemenu(MENU *t);	//메뉴 삭제를 삭제하는 함수
-void savefile(MENU *t, int count);	//등록된 메뉴를 저장하는 함수
-int loadfile(MENU *t);	//저장된 메뉴 파일을 불러오는 함수
-void searchmenu(MENU *t, int count);	//검색하는 함수
-
-
