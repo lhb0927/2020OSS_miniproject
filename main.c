@@ -19,7 +19,18 @@ int main(void){
 
 		} 
 		else if(menu==3){
-
+			if(count>0){
+				int no= select_data_no(mlist, curcount);
+				if(no==0){
+					printf("=> 취소됨\n");
+					continue;
+				}
+				else 
+					updatemenu(mlist[no-1]);	
+			}
+			else
+				printf("등록된 메뉴가 없습니다\n");
+			
 		} 
 		else if(menu==4){
 

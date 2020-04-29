@@ -46,6 +46,28 @@ void listmenu(MENU *t[], int count){
 	printf("\n");
 }
 
+int updatemenu(MENU *t){
+	printf("메뉴 이름은? ");
+	getchar();
+	fgets(t->m_name, 100, stdin);
+	t->m_name[strlen(t->m_name)-1]='\0';
+	printf("메뉴 가격은? ");
+	scanf("%d", &t->price);
+	printf("메뉴 사이즈(S/M/L)는 ? ");
+	getchar();
+	scanf("%c", &t->size);
+	printf("ICE or HOT ? ");
+	scanf("%s", t->type);
+	printf("=> 메뉴 수정됨\n");
+	return 1;
+}
 
-
+int select_data_no(MENU *t[], int count){
+	int no;
+	listmenu(t, count);
+	
+	printf("=> 원하는 번호는? (취쇠 0) ");
+	scanf("%d", &no);
+	return no;
+}
 
