@@ -39,9 +39,12 @@ void listmenu(MENU *t[], int count){
 	printf("\nNo   메뉴이름   가격  사이즈 ICE/HOT\n");
 	printf("====================================\n");
 	for(int i=0;i<count;i++){
-	if(t[i] != NULL);
-		printf("%-4d ", i+1);
-		readmenu(*t[i]);
+		if(t[i] == NULL)
+			continue;
+		else{	
+			printf("%-4d ", i+1);
+			readmenu(*t[i]);
+		}
 	}
 	printf("\n");
 }
@@ -66,8 +69,9 @@ int select_data_no(MENU *t[], int count){
 	int no;
 	listmenu(t, count);
 	
-	printf("=> 원하는 번호는? (취쇠 0) ");
+	printf("=> 원하는 번호는? (취소: 0) ");
 	scanf("%d", &no);
 	return no;
 }
 
+//int deletemenu(MENU *t){}

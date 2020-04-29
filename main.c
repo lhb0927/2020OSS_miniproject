@@ -33,6 +33,29 @@ int main(void){
 			
 		} 
 		else if(menu==4){
+			if(count>0){
+				int no=select_data_no(mlist, curcount);
+				int check;
+				if(no==0){
+					printf("=> 취소됨\n");
+					continue;
+				}
+				printf("=> 정말로 삭제하시겠습니까? (삭제:1) ");
+				scanf("%d", &check);
+					if(check==1){
+						if(mlist[no-1]) 
+							free(mlist[no-1]);
+						mlist[no-1]=NULL;
+						printf("=> 삭제됨\n");
+						count--;
+					}
+					else{
+						printf("=>  취소됨\n");
+						continue;
+					}		
+			}		
+			else
+				printf("등록된 메뉴가 없습니다\n");
 
 		} 
 		else if(menu==5){
