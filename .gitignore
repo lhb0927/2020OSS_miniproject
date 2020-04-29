@@ -1,3 +1,7 @@
+# executable files
+main
+Makefile
+
 # Prerequisites
 *.d
 
