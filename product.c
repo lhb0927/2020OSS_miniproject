@@ -24,7 +24,7 @@ int addmenu(MENU *t){
 	printf("메뉴 사이즈(S/M/L)는 ? ");
 	getchar();
 	scanf("%c", &t->size);
-	printf("ICE/HOT ? ");
+	printf("ICE or HOT ? ");
 	scanf("%s", t->type);
 	printf("=> 메뉴 추가됨\n");
 	return 1;
