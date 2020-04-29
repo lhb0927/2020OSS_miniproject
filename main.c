@@ -1,7 +1,8 @@
 #include "product.h"
 
 int main(void){
-	int menu, count, curcount;
+	int menu, count=0, curcount=0;
+	MENU *mlist[SIZE];
 	while(1){
 		menu=cafemenu();
 		if(menu==0) break;
@@ -9,6 +10,9 @@ int main(void){
 
 		} 
 		else if(menu==2){
+			mlist[curcount]= (MENU*)malloc(sizeof(MENU));	
+			count+= addmenu(mlist[curcount]);
+			curcount++;
 
 		} 
 		else if(menu==3){

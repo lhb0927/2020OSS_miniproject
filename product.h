@@ -2,12 +2,14 @@
 //product.h
 #include <stdio.h>
 #include <string.h>
+#include <stdlib.h>
+#define SIZE 100
 
 typedef struct{
 	char m_name[30];	//메뉴 이름
 	int price;	//메뉴 가격
 	char size;	//small/medium/large (S/M/L)
-	char type;	//ICE/HOT
+	char type[10];	//ICE/HOT
 }MENU;
 
 int cafemenu();	//사용할 옵션을 선택하는 함수
