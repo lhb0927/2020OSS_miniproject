@@ -19,6 +19,7 @@ int addmenu(MENU *t){
 	printf("메뉴 이름은? ");
 	getchar();
 	fgets(t->m_name, 100, stdin);
+	t->m_name[strlen(t->m_name)-1]='\0';
 	printf("메뉴 가격은? ");
 	scanf("%d", &t->price);
 	printf("메뉴 사이즈(S/M/L)는 ? ");
@@ -29,3 +30,22 @@ int addmenu(MENU *t){
 	printf("=> 메뉴 추가됨\n");
 	return 1;
 }
+
+void readmenu(MENU t){
+	printf("%-9s %-8d %-5c %s\n", t.m_name, t.price, t.size, t.type);
+}
+
+void listmenu(MENU *t[], int count){
+	printf("\nNo   메뉴이름   가격  사이즈 ICE/HOT\n");
+	printf("====================================\n");
+	for(int i=0;i<count;i++){
+	if(t[i] != NULL);
+		printf("%-4d ", i+1);
+		readmenu(*t[i]);
+	}
+	printf("\n");
+}
+
+
+
+

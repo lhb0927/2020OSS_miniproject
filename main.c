@@ -7,7 +7,10 @@ int main(void){
 		menu=cafemenu();
 		if(menu==0) break;
 		else if(menu==1){
-
+			if(count>0)
+				listmenu(mlist, curcount);
+			else
+				printf("등록된 메뉴가 없습니다\n");
 		} 
 		else if(menu==2){
 			mlist[curcount]= (MENU*)malloc(sizeof(MENU));	
