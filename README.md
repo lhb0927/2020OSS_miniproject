@@ -27,6 +27,8 @@
 #### Introduction
 안녕하세요, 저는 19학번 생명전산을 전공하고 있는 이태영입니다.
 
+안녕하세요, 저는 15학번 전산전자공학부 임형빈입니다 :)
+
 #### Editor info.
 * Name: 이태영
 * Github username: TaeyoungLee10
@@ -36,6 +38,8 @@
 
 #### Contributor
 * Name: 임형빈
+* Github username: lhb0927
+* Email: 21500612@handong.edu
 * Repository address: <https://github.com/lhb0927/2020OSS_miniproject.git>
 
 
