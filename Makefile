@@ -1,4 +1,4 @@
-main: main.c product.o
+main: main.c product.o manager.o
 	gcc -W -Wall -o $@ $^
 
 clean:
