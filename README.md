@@ -1,5 +1,5 @@
 # 2020OSS_miniproject
-**카페 메뉴 관리 프로그램**
+### 카페 메뉴 관리 프로그램
 
 #### Contents
 카페 메뉴 관리를 위한 CRUD 프로그램을 개발중입니다.
@@ -34,14 +34,14 @@
 * Repository address: <https://github.com/lhb0927/2020OSS_miniproject.git>
 * 소유자 repository: (2020/04/28~5/2) <https://github.com/lhb0927/2020OSS_miniproject.git>
 
-## 팀원
+#### 팀원
 * 임형빈
 * 이태영
 
-## 역할
+#### 역할
  이태영: 구조체 정의, CRUD 함수 정의 
  임형빈: 저장, 불러오기, 검색 기능 함수 정의
  
-## 자기소개 파일
+#### 자기소개 파일
 * hello.c: 임형빈 학우님의 자기소개
 * hello2.c: 이태영 학우님의 자기소개
