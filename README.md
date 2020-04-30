@@ -37,8 +37,7 @@
 #### Contributor
 * Name: 임형빈
 * Repository address: <https://github.com/lhb0927/2020OSS_miniproject.git>
-=======
-  6. 검색
+
 
 ## 팀원
  임형빈
