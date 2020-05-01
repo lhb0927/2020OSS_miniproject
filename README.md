@@ -33,8 +33,6 @@
 * Name: 이태영
 * Github username: TaeyoungLee10
 * Email: 21900585@handong.edu
-* Contact no: 010-5955-1023
-* 학교: 한동대학교
 
 #### Contributor
 * Name: 임형빈
@@ -51,4 +49,7 @@
  이태영: 구조체 정의, CRUD 함수 정의 
  
  임형빈: 저장, 불러오기, 검색 기능 함수 정의
-
+ 
+#### 자기소개 파일
+* hello.c: 임형빈 학우님의 자기소개
+* hello2.c: 이태영 학우님의 자기소개
