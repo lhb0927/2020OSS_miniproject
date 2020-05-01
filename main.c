@@ -71,11 +71,11 @@ int main(void){
 				saveData(mlist,curcount);
 		} 
 		else if(menu==6){
-			printf("1. 메뉴 이름 검색\n");
+			printf("\n1. 메뉴 이름 검색\n");
 			printf("2. 메뉴 가격 검색\n");
 			printf("3. 메뉴 사이즈 검색\n");
 			printf("4. 메뉴 타입 검색\n");
-			printf("=> 번호를 고르세요 : ");
+			printf("\n=> 번호를 고르세요 : ");
 			scanf("%d",&searchNum);
 			
 			if(searchNum==1)searchMenu(mlist,curcount);
