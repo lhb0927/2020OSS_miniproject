@@ -33,8 +33,6 @@
 * Name: 이태영
 * Github username: TaeyoungLee10
 * Email: 21900585@handong.edu
-* Contact no: 010-5955-1023
-* 학교: 한동대학교
 
 #### Contributor
 * Name: 임형빈
