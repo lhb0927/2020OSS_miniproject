@@ -10,6 +10,7 @@ int loadData(MENU *t[]){
 		return 0;
 	}
 	for(;;i++){
+		t[i] = (MENU*)malloc(sizeof(MENU));
 		fscanf(fp,"%s %d %c %s",t[i]->m_name,&t[i]->price,&t[i]->size,t[i]->type);
 		if(feof(fp))break;
 	}

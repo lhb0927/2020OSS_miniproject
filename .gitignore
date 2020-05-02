@@ -1,6 +1,7 @@
 # executable files
 main
 Makefile
+.txt
 
 # Prerequisites
 *.d
