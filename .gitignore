@@ -1,7 +1,7 @@
 # executable files
 main
 Makefile
-.txt
+cafemenu.txt
 
 # Prerequisites
 *.d
