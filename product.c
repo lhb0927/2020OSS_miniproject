@@ -32,11 +32,11 @@ int addmenu(MENU *t){
 }
 
 void readmenu(MENU t){
-	printf("%-9s %-8d %-5c %s\n", t.m_name, t.price, t.size, t.type);
+	printf("%9s\t%-5d %-5c %s\n", t.m_name, t.price, t.size, t.type);
 }
 
 void listmenu(MENU *t[], int count){
-	printf("\nNo   메뉴이름   가격  사이즈 ICE/HOT\n");
+	printf("\nNo   메뉴이름   가격 사이즈 ICE/HOT\n");
 	printf("====================================\n");
 	for(int i=0;i<count;i++){
 		if(t[i] == NULL)
