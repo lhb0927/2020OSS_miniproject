@@ -1,3 +1,6 @@
+//Editor : Lim Hyeongbin
+//         21500612
+
 #include "manager.h"
 
 int loadData(MENU *t[]){
