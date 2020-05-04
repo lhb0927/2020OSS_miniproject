@@ -1,4 +1,15 @@
 #include "product.h"
+void introduction(){
+	printf("---------------------------------------------------------\n");
+	printf("Welcome to OSS_cafe CRUD program :) \n");
+	printf("How to use this program: \n\n");
+	printf("메뉴이름:\tEnter the name of the menu\n");
+	printf("메뉴사이즈:\tEnter the size\n\n");
+	printf("\t\tsmall: S\n\t\tmedium: M\n\t\tlarge: L\n\n");
+	printf("메뉴타입:\tEnter ICE or HOT\n");
+	printf("Search choices: menu name, price, size, and type\n");
+	printf("---------------------------------------------------------\n\n");
+}
 
 int cafemenu(){
 	int menu;
