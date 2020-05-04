@@ -1,6 +1,7 @@
 #include "manager.h"
 
 int main(void){
+	introduction();	//프로그램에 대한 간단한 설명
 	int menu;
 	int count=0, curcount=0;
 	MENU *mlist[SIZE];
