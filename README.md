@@ -10,10 +10,13 @@
 주제: CRUD 프로그램의 일종으로 카페 메뉴를 관리를 새롭게 등록하고, 조회하고, 수정하고, 삭제하는 프로그램이다
 
 ## 구조체
- 메뉴 이름
- 가격
- 사이즈(S/M/L)
- ICE/HOT
+* 메뉴 이름
+
+* 가격
+ 
+ * 사이즈(S/M/L)
+ 
+ * ICE/HOT
 
 ## 함수기능
 
@@ -33,6 +36,7 @@
 * Name: 이태영
 * Github username: TaeyoungLee10
 * Email: 21900585@handong.edu
+* Repository address: https://github.com/TaeyoungLee10/2020OSS_mini_project.git
 
 #### Contributor
 * Name: 임형빈
