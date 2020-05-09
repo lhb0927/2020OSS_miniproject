@@ -36,7 +36,7 @@
 * Name: 이태영
 * Github username: TaeyoungLee10
 * Email: 21900585@handong.edu
-* Repository address: https://github.com/TaeyoungLee10/2020OSS_mini_project.git
+* Repository address: <https://github.com/TaeyoungLee10/2020OSS_mini_project.git>
 
 #### Contributor
 * Name: 임형빈
