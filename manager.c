@@ -42,7 +42,7 @@ void searchMenu(MENU *t[],int count){
 	printf("=> 검색할 메뉴 이름은? ");
 	scanf("%s",target);
 
-	printf("\nNo    메뉴이름   가격  사이즈  ICE/HOT\n");
+	printf("\nNo   메뉴이름   가격 사이즈 ICE/HOT\n");
 	printf("=========================================\n");
 	for(int i = 0;i<count;i++){
 		if(t[i]->price != -1){
@@ -63,7 +63,7 @@ void searchPrice(MENU *t[],int count){
 	printf("=> 검색할 가격은? ");
 	scanf("%d",&target);
 
-	printf("\nNo    메뉴이름   가격  사이즈  ICE/HOT\n");
+	printf("\nNo   메뉴이름   가격 사이즈 ICE/HOT\n");
 	printf("=========================================\n");
 	for(int i = 0;i<count;i++){
 		if(t[i]->price != -1){
@@ -85,7 +85,7 @@ void searchSize(MENU *t[],int count){
 	printf("=> 검색할 사이즈는? ");
 	scanf("%c",&target);
 
-	printf("\nNo    메뉴이름   가격  사이즈  ICE/HOT\n");
+	printf("\nNo   메뉴이름   가격 사이즈 ICE/HOT\n");
 	printf("=========================================\n");
 	for(int i = 0;i<count;i++){
 		if(t[i]->price != -1){
@@ -106,7 +106,7 @@ void searchType(MENU *t[],int count){
 	printf("=> 검색할 타입은? ");
 	scanf("%s",target);
 
-	printf("\nNo    메뉴이름   가격  사이즈  ICE/HOT\n");
+	printf("\nNo   메뉴이름   가격 사이즈 ICE/HOT\n");
 	printf("=========================================\n");
 	for(int i = 0;i<count;i++){
 		if(t[i]->price != -1){
