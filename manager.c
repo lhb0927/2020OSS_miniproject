@@ -1,8 +1,13 @@
-//Editor : Lim Hyeongbin
-//         21500612
+//Editor    :Lim Hyeongbin
+//StudentID :21500612
+/*
+입력받은 데이터를 저장하고/ 로드하는 함수 및
+데이터 내에서 유저의 선택에 따라 정보를 검색하는 함수 구현
+*/
 
 #include "manager.h"
 
+//저장된 데이터 불러오기
 int loadData(MENU *t[]){
 	int i = 0;
 	FILE *fp;
@@ -23,6 +28,7 @@ int loadData(MENU *t[]){
 	return i;
 }
 
+//입력받은 데이터 저장하기
 void saveData(MENU *t[],int count){
 	FILE *fp;
 	fp = fopen("cafemenu.txt","wt");
@@ -35,6 +41,7 @@ void saveData(MENU *t[],int count){
 	fclose(fp);
 }
 
+//메뉴이름 검색하기
 void searchMenu(MENU *t[],int count){
 	int scount = 0;
 	char target[50];
@@ -56,6 +63,7 @@ void searchMenu(MENU *t[],int count){
 	if(scount==0)printf("=>찾으시는 데이터가 존재하지 않습니다..\n");
 }
 
+//메뉴가격 검색하기
 void searchPrice(MENU *t[],int count){
 	int scount = 0;
 	int target = 0;
@@ -77,6 +85,8 @@ void searchPrice(MENU *t[],int count){
 	if(scount==0)printf("=>찾으시는 데이터가 존재하지 않습니다..\n");
 }
 
+
+//메뉴 크기 검색하기
 void searchSize(MENU *t[],int count){
 	int scount = 0;;
 	char target;
@@ -99,6 +109,7 @@ void searchSize(MENU *t[],int count){
 	if(scount==0)printf("=>찾으시는 데이터가 존재하지 않습니다..\n");
 }
 
+//메뉴 타입 검색하기
 void searchType(MENU *t[],int count){
 	int scount = 0;
 	char target[50];
