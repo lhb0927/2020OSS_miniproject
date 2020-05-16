@@ -26,8 +26,7 @@ int cafemenu(){
 	printf("3. 수정\n");
 	printf("4. 삭제\n");
 	printf("5. 저장\n");
-	printf("6. 검색\n\n");
-
+	printf("6. 검색\n");
 	printf("0. 종료\n\n");
 
 	printf("=> 원하는 메뉴번호는? ");
