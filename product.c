@@ -8,6 +8,7 @@
 void introduction(){
 	printf("---------------------------------------------------------\n");
 	printf("Welcome to OSS_cafe CRUD program :) \n");
+	printf("We opened April 28,2020!!\n");
 	printf("How to use this program: \n\n");
 	printf("메뉴이름:\tEnter the name of the menu\n");
 	printf("메뉴사이즈:\tEnter the size\n\n");
