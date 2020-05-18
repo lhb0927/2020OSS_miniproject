@@ -49,6 +49,7 @@ void searchMenu(MENU *t[],int count){
 	printf("=> 검색할 메뉴 이름은? ");
 	scanf("%s",target);
 
+	printf("\n원하시는 메뉴입니다!!\n");
 	printf("\nNo   메뉴이름   가격 사이즈 ICE/HOT\n");
 	printf("=========================================\n");
 	for(int i = 0;i<count;i++){
